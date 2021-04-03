@@ -4,7 +4,7 @@ This project is for education purpose. How do an APIs in general works and how t
 ## NASA EPIC API
 In this project we will requesting data from NASA open source APIs , it is free and public data that NASA has maintains .
 
-## Project built using : 
+## Project built using  
 1- Html
 2- CSS
 3- Js
@@ -19,7 +19,7 @@ In this project we will requesting data from NASA open source APIs , it is free 
   
   - your fav text editor (= !
 
-## EPIC API Documentation Page.
+## EPIC API Documentation Page
 Read more about the api from NASA api documentation [here](https://epic.gsfc.nasa.gov/about/api). 
 
 ## pages
@@ -40,7 +40,7 @@ Read more about the api from NASA api documentation [here](https://epic.gsfc.nas
 
       ```
       #### NOTE* imges are updaeted daily , so you need to update the date into your link also
-      ##### example today date is 2021 - 04 - 02 , change it to your current date (year , month , day) . 
+      ##### for example: today date is 2021 - 04 - 02 , change it to your current date (year , month , day) . 
       ```
       const image = `<img width=300px; height=300px; src="https://epic.gsfc.nasa.gov/archive/natural/2021/04/02/png/${Epic.image}.png"</img>`
 
