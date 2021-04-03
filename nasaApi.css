@@ -1,0 +1,115 @@
+html 
+{
+    height: 100%;
+    overflow: hidden;
+}
+body
+{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #201429;
+}
+header
+{
+    box-sizing: border-box;
+    min-height: 30vw 0 50vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+}
+header h1 
+{
+    margin-top: -100px;
+    font-size: 100px;
+    padding-top: 350px;
+    padding-right: 100px;
+}
+header , header:before
+{
+    background: 50% 50% / cover;
+}
+header::before
+{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/005/137/123/large/mac-rebisz-20170306-blue-sunrise-007-2560.jpg?1488757916');
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+  
+}
+header *
+{
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.column
+{
+    margin-top: 500px;
+    float: left;
+    width: 40%;
+    padding-left: 100px;
+}
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+#left
+{
+    font-size: 80px;
+}
+#line
+{
+    height: 8px;
+    background-image: linear-gradient(to right, #A06168 , #A2D1E7);
+}
+#right
+{
+    font-size: 15px;
+}
+#button
+{
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)
+}
+#button
+ {
+   margin: 50px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+ #button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ #content
+ {
+     margin-top: 100px;
+     text-align: center;
+      
+ }
+
