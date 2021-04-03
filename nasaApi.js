@@ -6,7 +6,7 @@ Button.addEventListener("click", () => {
 })
 
 async function fetchApi() {
-    let API_KEY = "otQhqgxHafCr4VLHYbl1aGutWsn8EKpA4nxTjoFa"
+    let API_KEY = " "
     let response = await fetch(`https://api.nasa.gov/EPIC/api/natural/images?api_key=${API_KEY}`);
     console.log(response)
     let data = await response.json()
